@@ -1,7 +1,11 @@
+import "./Card.css";
+
+import Information from "./Information/Information";
+
 export default function Card() {
   return (
-    <div>
-      <h1>Card</h1>
+    <div className="card">
+      <Information />
     </div>
   )
 }
