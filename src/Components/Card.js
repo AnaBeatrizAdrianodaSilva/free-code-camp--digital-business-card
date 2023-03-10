@@ -3,6 +3,9 @@ import "./Card.css";
 import Information from "./Information/Information";
 import About from "./About/About";
 import Interest from "./Interests/Interests";
+import Footer from "./Footer/Footer";
+
+
 
 export default function Card() {
   return (
@@ -10,6 +13,7 @@ export default function Card() {
       <Information />
       <About /> 
       <Interest /> 
+      <Footer />
     </div>
   )
 }

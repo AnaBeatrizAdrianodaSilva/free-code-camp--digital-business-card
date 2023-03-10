@@ -1,0 +1,16 @@
+.footer {
+  background-color: #161619;
+  height: 64px;
+  border-radius: 0 0 10px 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footer .icon {
+  color: #918E9B;
+  width: 25px;
+  height: 25px;
+}
